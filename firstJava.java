@@ -1,9 +1,13 @@
-public class firstJava {
+class firstJava {
 	public static void main(String[] args) {
-		int a =0;
+		int a = 6;
 		int b =3;
-		int result = a+b;
-		System.out.println("result : " + result);
+
+		System.out.println("add(a,b) : " + add(a, b));
+
 	}
-	
+
+	public static int add(int a, int b){
+		return a+b;
+	}
 }
