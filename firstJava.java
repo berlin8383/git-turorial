@@ -7,7 +7,7 @@ class firstJava {
 
 		System.out.println("sub(a,b) : " + sub(a, b));
 
-		System.out.println("mul(a,b) : " + mul(a, b));
+		System.out.println("mul(a,b) : " + mul(a, b)); //주석추가합니다.
 
 	}
 
